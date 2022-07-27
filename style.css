@@ -14,6 +14,15 @@
     border-radius: 15px;
 }
 
+a:hover {
+    color: white;
+    transform: scale(1.05);
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -91,6 +100,10 @@ ul li {
     margin-bottom: 20px;
 }
 
+.side-up ul li a:hover {
+    color: white;
+}
+
 .side-up ul li a {
     text-decoration: none;
     color: darkgrey;
@@ -119,6 +132,10 @@ li>a>img {
 .playlist {
     padding: 15px 0;
     color: white;
+}
+
+.border {
+    border-left: 2px solid yellowgreen;
 }
 
 .plus>span {
@@ -204,7 +221,24 @@ li>a>img {
     margin-bottom: 30px;
 }
 
+.active {
+    border-bottom: 2px solid yellowgreen;
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.link:visited .hidden {
+    display: block;
+}
+
 .mainmenu ul {
+    position: relative;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -223,7 +257,7 @@ li>a>img {
     font-weight: bold;
 }
 
-.mainmenu a {
+.link {
     text-decoration: none;
     color: #7d7f84;
     display: flex;
@@ -351,6 +385,12 @@ footer {
     margin-right: 5px;
 }
 
+.margin:hover {
+    color: white;
+    text-decoration: underline;
+
+}
+
 .center {
     flex-direction: column;
     justify-content: space-evenly;
@@ -388,6 +428,36 @@ footer {
     height: 5px;
     background-color: white;
     border-radius: 25px;
+    position: relative;
+}
+
+.bar:hover {
+    background-color: rgb(153, 255, 0);
+}
+
+.bar:hover .pallino {
+    display: block;
+}
+
+.pallino {
+    display: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+
+.like i:hover {
+    color: white;
+}
+
+.audio i:hover,
+.right i:hover {
+    transform: scale(1.3);
 }
 
 @media screen and (min-width:600px) {
@@ -421,6 +491,22 @@ footer {
 
     .header {
         width: calc(100% - 220px);
+    }
+
+    .box {
+        width: 200px;
+    }
+
+    .center {
+        width: 400px;
+    }
+
+    .barra {
+        width: 50%;
+    }
+
+    .audio {
+        width: 50%;
     }
 }
 
