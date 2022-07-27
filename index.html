@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify WebApp</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="side-menu">
+                <div class="side-up">
+                    <img class="logos" src="img/logo-small.svg" alt="logo">
+                    <img class="logol none" src="img/logo-small.svg" alt="">
+                    <ul>
+                        <li><a href="#"><img src="img/home.svg" alt="home"> <span class="none">Home</span> </a></li>
+                        <li><a href="#"><img src="img/search.svg" alt="search"> <span class="none">Search</span> </a>
+                        </li>
+                        <li><a href="#"><img src="img/libreria.svg" alt="search"> <span class="none">La tua
+                                    Libreria</span> </a></li>
+                    </ul>
+                    <div class="playlist none">
+                        <h3>Playlist</h3>
+                        <ul class="playlistul none">
+                            <li>
+                                <a href="#">
+                                    <div class="plus">La tua libreria</div>
+                                </a>
+                            </li>
+                            <li><a href="">Nome Playlist</a></li>
+                            <li><a href="">Nome Playlist</a></li>
+                            <li><a href="">Nome Playlist</a></li>
+                            <li><a href="">Nome Playlist</a></li>
+                            <li><a href="">Nome Playlist</a></li>
+                            <li><a href="">Nome Playlist</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="side-down">
+                    <div class="icon"><i class="fa-solid fa-circle-arrow-down"></i><span class="none">Installa
+                            App</span></div>
+                    <hr class="hrside none">
+                    <div class="icon admin"><i class="fa-solid fa-circle-user"></i>
+                        <h6 class="none">John Doe</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <button>EFFETTUA UPGRADE</button>
+        </div>
+        <div class="main">
+            <div class="mainmenu">
+                <ul>
+                    <li><a href="#">IN EVIDENZA</a></li>
+                    <li><a href="#">PODCAST</a></li>
+                    <li><a href="#">CLASSIFICHE</a></li>
+                    <li><a href="#">GENERI E MOOD</a></li>
+                    <li><a href="#">NUOVE USCITE</a></li>
+                    <li><a href="#">SCOPRI</a></li>
+                </ul>
+
+            </div>
+            <h2>Recently played</h2>
+            <div class="albumplay">
+                <div class="card">
+                    <div class="play"> <i class="fa-solid fa-circle-play"></i>
+                        <img src="img/metal_lifting.jpg" alt="">
+                    </div>
+                    <h3>Heavy Metal</h3>
+                    <span>Subtitle</span>
+                </div>
+                <div class="card">
+                    <div class="play"><i class="fa-solid fa-circle-play"></i><img src="img/stranger.jpeg" alt=""></div>
+                    <h3>Stranger Things Vol 1 (a Netflix Original Series Soundtrack)</h3>
+                    <span>Kyle Dixon & Michael Stein</span>
+                </div>
+                <div class="card">
+                    <div class="play"><i class="fa-solid fa-circle-play"></i><img src="img/aquietplace.jpeg" alt="">
+                    </div>
+                    <h3>A quiet place</h3>
+                    <span>Subtitle</span>
+                </div>
+                <div class="card">
+                    <div class="play"><i class="fa-solid fa-circle-play"></i><img src="img/split.jpeg" alt=""></div>
+                    <h3>Split</h3>
+                    <span>Subtitle</span>
+                </div>
+                <div class="card">
+                    <div class="play"><i class="fa-solid fa-circle-play"></i><img src="img/cure.jpeg" alt=""></div>
+                    <h3>A cure for wellness</h3>
+                    <span>Subtitle</span>
+                </div>
+                <div class="card">
+                    <div class="play"><i class="fa-solid fa-circle-play"></i><img src="img/sinister.jpeg" alt=""></div>
+                    <h3>Sinister</h3>
+                    <span>Subtitle</span>
+                </div>
+            </div>
+
+
+            <h2>Creato per John Doe</h2>
+            <p class="sug">Piu ascolti, piu' accurati saranno i suggerimenti</p>
+            <div class="albumplay">
+                <div class="suggestion">
+                    <div class="play"> <i class="fa-solid fa-circle-play"></i>
+                        <img src="img/radar.jpeg" alt="">
+                    </div>
+                    <h3>Release Radar</h3>
+                </div>
+                <div class="suggestion">
+                    <div class="play"><i class="fa-solid fa-circle-play"></i><img src="img/mixdaily.jpeg" alt=""></div>
+                    <h3>Daily Mix 1</h3>
+                </div>
+            </div>
+
+            <h2>Artisti piu' popolari</h2>
+            <p class="sug">Piu ascolti, piu' accurati saranno i suggerimenti</p>
+            <div class="albumplay">
+                <div class="suggestion">
+                    <div class="play circle"> <i class="fa-solid fa-circle-play"></i>
+                        <img src="img/youg.jpeg" alt="">
+                    </div>
+                    <h3>Young</h3>
+                </div>
+                <div class="suggestion">
+                    <div class="play circle"><i class="fa-solid fa-circle-play"></i><img src="img/einaudi.jpeg" alt="">
+                    </div>
+                    <h3>Einaudi</h3>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="box left">
+                <div class="songplay"><img src="img/sinister.jpeg" alt=""></div>
+                <div class="artist">
+                    <h5>Sinister</h5>
+                    <span>Brano</span>
+                    <span>Nome</span>
+                </div>
+                <div class="like">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-folder"></i>
+                </div>
+            </div>
+            <div class="box center">
+                <div class="audio">
+
+                </div>
+            </div>
+            <div class="box right">
+                <div><i class="fa-solid fa-shuffle"></i></div>
+                <div></div>
+            </div>
+
+        </footer>
+
+    </div>
+</body>
+
+</html>
