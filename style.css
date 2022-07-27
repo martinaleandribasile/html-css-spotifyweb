@@ -166,6 +166,7 @@ li>a>img {
     border: 2px solid white;
     border-radius: 25px;
     margin-right: 50px;
+    cursor: pointer;
 }
 
 .main {
@@ -277,12 +278,15 @@ footer {
     z-index: 200;
     display: flex;
     flex-shrink: 0;
+    justify-content: space-between;
+    padding: 0 10px;
 }
 
 .box {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
+    width: 30%;
 }
 
 .songplay {
@@ -290,7 +294,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
 }
 
 .songplay img {
@@ -318,8 +321,41 @@ footer {
     color: #7d7f84;
 }
 
-.audio {
-    display: flex;
+.center {
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.center>* {
+    width: 100%;
+}
+
+.audio {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.audio div {
+    padding: 0 5px;
+}
+
+.audiostate {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.barra {
+    width: 35%;
+    height: 5px;
+    background-color: #7d7f84;
+    border-radius: 25px;
+}
+
+.bar {
+    width: 30%;
+    height: 5px;
+    background-color: white;
+    border-radius: 25px;
 }
