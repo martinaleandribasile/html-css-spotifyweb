@@ -265,6 +265,17 @@ li>a>img {
     align-items: center;
 }
 
+.link2 {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: red;
+    position: fixed;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .link:after {
     content: "";
     width: 30px;
