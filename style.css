@@ -182,6 +182,14 @@ li>a>img {
     margin-top: 20px;
 }
 
+.fa-circle-arrow-down:hover {
+    color: white;
+}
+
+.plus:hover span {
+    color: white;
+}
+
 .header {
     width: calc(100% - 60px);
     height: 80px;
@@ -518,7 +526,7 @@ footer {
     }
 
     .box {
-        width: 200px;
+        width: 250px;
     }
 
     .center {
