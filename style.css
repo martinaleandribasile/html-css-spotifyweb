@@ -263,6 +263,7 @@ li>a>img {
     color: #7d7f84;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .link2 {
@@ -270,24 +271,22 @@ li>a>img {
     width: 30px;
     height: 2px;
     background-color: red;
-    position: fixed;
+    position: absolute;
     bottom: -10px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.link:after {
+.link:active:after {
     content: "";
-    width: 30px;
+    width: 50px;
     height: 2px;
-    background-color: red;
-    position: fixed;
+    background-color: pink;
+    position: absolute;
     bottom: -10px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-.link:visited {}
 
 .main h2 {
     padding-left: 10px;
