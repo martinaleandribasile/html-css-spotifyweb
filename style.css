@@ -256,6 +256,7 @@ li>a>img {
     border: 2px solid transparent;
     font-size: 10px;
     font-weight: bold;
+    position: relative;
 }
 
 .linkstyle {
